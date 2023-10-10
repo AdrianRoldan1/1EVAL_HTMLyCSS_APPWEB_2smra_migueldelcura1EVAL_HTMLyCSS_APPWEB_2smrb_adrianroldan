@@ -6,6 +6,50 @@
     <title>Formularios2</title>
 </head>
 <body>
-    
+    <center>
+    <form action=""">
+        <p>Nombre y Apellidos: <input type="text" name="nombre" size="40">
+        </p>
+        <p>Fecha de nacimiento: <input type="date" name="nacido">
+        </p>
+        <p>Nacionalidad: <input type="text" name="pais" size="40">
+        </p>
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>Nivel de Inglés: <input type="range" name="rango" min="1" max="10" step="0.5">
+        </p>
+        <p>Estudios:<select name="Estudios">
+            <option>-------</option>
+            <option>Secundria</option>
+            <option>Grado Medio</option>
+            <option>Bachillerato</option>
+            <option>Universitario</option>
+            <option>Grado Superior</option>
+            <option>Master</option>
+            <option>Doctorado</option>
+        </select>
+        </p>
+        <p>Estado Civil: <select name="Estado[]">
+            <option selected>.....</option>
+            <option value="1">Solter@</option>
+            <option value="2">Divorciad@</option>
+            <option value="3">Casado@</option>
+            <option value="4">Viud@</option>
+            <option value="5">Prometid@</option>
+        </select>
+        </p>
+        <p>Color Favorito: <input type="color" name="ColFav">
+        <p>Has leído las Condiciones de Servicio: <input type="checkbox" name="yn" value="0">Acepto las Condiciones de Servicio</p>
+        <p>
+            <input type="submit" value="Enviar" style="background-color: green;">
+            <input type="reset" value="Borrar" style="background-color: crimson;">
+        </p>
+        
+
+        </p>
+    </form>
+</center>
 </body>
 </html>
