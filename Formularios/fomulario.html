@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios2</title>
+    <title>Formularios</title>
 </head>
 <body>
     <center>
-    <form action=""">
+    <form>
+        <fieldset>
+            <legend>Datos Personales</legend>
         <p>Nombre y Apellidos: <input type="text" name="nombre" size="40">
         </p>
         <p>Fecha de nacimiento: <input type="date" name="nacido">
         </p>
         <p>Nacionalidad: <input type="text" name="pais" size="40">
         </p>
+        <p>Teléfono: <input type="tel" name="telefono"></p>
         <p>Sexo:
             <input type="radio" name="hm" value="h"> Hombre
             <input type="radio" name="hm" value="m"> Mujer
         </p>
+    </fieldset>
+    <fieldset>
+        <legend>Datos Académicos</legend>
         <p>Nivel de Inglés: <input type="range" name="rango" min="1" max="10" step="0.5">
         </p>
         <p>Estudios:<select name="Estudios">
@@ -31,20 +37,22 @@
             <option>Doctorado</option>
         </select>
         </p>
-        <p>Estado Civil: <select name="Estado[]">
-            <option selected>.....</option>
-            <option value="1">Solter@</option>
-            <option value="2">Divorciad@</option>
-            <option value="3">Casado@</option>
-            <option value="4">Viud@</option>
-            <option value="5">Prometid@</option>
-        </select>
-        </p>
+        <p>Escuela donde cursaste el último curso: <input type="text" name="texto" size="40"></p>
+    </fieldset>
+    <p>Estado Civil: <select name="Estado[]">
+        <option selected>.....</option>
+        <option value="1">Solter@</option>
+        <option value="2">Divorciad@</option>
+        <option value="3">Casado@</option>
+        <option value="4">Viud@</option>
+        <option value="5">Prometid@</option>
+    </select>
+    </p>
+        <textarea name="texto"  rows="3" cols="20"></textarea>
         <p>Color Favorito: <input type="color" name="ColFav">
         <p>Has leído las Condiciones de Servicio: <input type="checkbox" name="yn" value="0">Acepto las Condiciones de Servicio</p>
         <p>
-            <input type="button" onclick="mensaje('Enhorabuena,has ganado un Iphone 15 Pro Max, clica el siguiente enlace para conseguirlo')" value="Botón">
-
+           <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Capybara_portrait_2.jpg/1024px-Capybara_portrait_2.jpg" target="_blank"> <input type="button" onclick="mensaje('Enhorabuena, has ganado un Iphone 15 Pro Max, clica el siguiente botón para conseguirlo')" value="Botón"></a>
 <script>
   function mensaje(texto) {
     alert(texto);
@@ -54,8 +62,6 @@
             <input type="reset" value="Borrar" style="background-color: crimson;">
             <a href="Fomulario2.html" target="_blank"><input type="button" value="Pagina" style="background-color: rgb(3, 205, 255);"></a>
         </p>
-        
-
         </p>
     </form>
 </center>
