@@ -1,3 +1,4 @@
+/*Selector id*/
 .name{
     color: green;
     background-color: blanchedalmond;
@@ -8,3 +9,19 @@
     background-color: goldenrod;
 }
 /* Solo se puede poner un id, nunca puede repetirse */
+
+/* Selector Descendiente */
+
+div{
+    border: rgb(0, 217, 255) 5px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+div h2{
+    border: rgb(153, 30, 210) 5px dotted;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(160, 236, 236);
+}
+/* Se separa por espacio,no por punto */
