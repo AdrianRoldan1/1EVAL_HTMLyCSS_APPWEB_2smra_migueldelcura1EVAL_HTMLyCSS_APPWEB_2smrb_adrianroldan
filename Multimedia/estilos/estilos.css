@@ -1,0 +1,10 @@
+.name{
+    color: green;
+    background-color: blanchedalmond;
+}
+
+#aviso{
+    color: blueviolet;
+    background-color: goldenrod;
+}
+/* Solo se puede poner un id, nunca puede repetirse */

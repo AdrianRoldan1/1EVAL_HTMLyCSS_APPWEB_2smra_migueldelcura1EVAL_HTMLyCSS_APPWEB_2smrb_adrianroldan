@@ -1,0 +1,10 @@
+/* Selecctor Universal
+*{
+    color: blue;
+}
+*/
+/* Esto es un selector de elemento */
+h1,mark{
+    color: rgb(166, 84, 221);
+    background-color: rgb(0, 225, 255);
+}
