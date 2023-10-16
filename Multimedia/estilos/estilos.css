@@ -6,20 +6,20 @@
 
 #aviso{
     color: blueviolet;
-    background-color: goldenrod;
+    background-color: rgb(135, 214, 115);
 }
 /* Solo se puede poner un id, nunca puede repetirse */
 
 /* Selector Descendiente */
 
 div{
-    border: rgb(0, 217, 255) 5px solid;
+    border: rgb(0, 217, 255) 5px dotted;
     margin: 10px;
     padding: 10px;
 }
 
 div h2{
-    border: rgb(153, 30, 210) 5px dotted;
+    border: rgb(153, 30, 210) 5px groove;
     margin: 10px;
     padding: 10px;
     background-color: rgb(160, 236, 236);
