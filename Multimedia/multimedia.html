@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilos/estilos.css" />
     <title>Multimedia</title>
+    <style>
+
+      #manolo{
+        padding: 1em;
+        color: whitesmoke;
+        font-weight: holder;
+        background-image: url(https://p0.pikist.com/photos/431/412/night-forest-trees-moonlight-winter-flashlight.jpg);
+        border: 1px greenyellow solid;
+        text-align: center;
+        width: auto;
+        background-size: contain;
+      }
+    </style>
   </head>
   <body>
-    <div>
+    <div id="tigre">
       <h1>Imágenes</h1>
       <img src="Img/2017-03-27-13-55-55.jpg" alt="tigre" width="800" />
       <img src="Img/pantera.jpg" alt="Pantera" width="800" height="500" />
@@ -16,17 +29,20 @@
         Enlace a <a href="https://www.faunia.es/" target="_blank">faunia</a>.
       </h2>
     </div>
-    <div>
+    <div id="manolo">
+      <p>Probando la imagen de fondo de div</p>
+    </div>
+    <div id="videos">
       <h1 id="aviso">Video</h1>
 
       <video width="300" height="300" loop autoplay muted controls>
         <source src="Video/Zeppelin_Explodes.webm" type="video/webm" />
       </video>
     </div>
-    <div>
+    <div id="Audios">
       <h1 class="name">Audio</h1>
 
-      <audio loop autoplay muted controls>
+      <audio  autoplay muted controls>
         <source src="Audio/Frase_de_Neil_Armstrong.mp3" type="audio/mp3" />
       </audio>
     </div>
@@ -48,8 +64,7 @@
         style="border: 0"
         allowfullscreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </body>
 </html>
