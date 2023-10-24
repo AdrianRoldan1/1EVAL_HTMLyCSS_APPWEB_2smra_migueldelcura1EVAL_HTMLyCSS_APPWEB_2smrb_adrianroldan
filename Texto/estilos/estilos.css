@@ -1,10 +1,37 @@
-/* Selecctor Universal
-*{
-    color: blue;
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+pre{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 158%;
 }
-*/
-/* Esto es un selector de elemento */
-h1,mark{
+mark{
     color: rgb(166, 84, 221);
     background-color: rgb(0, 225, 255);
+}
+
+@font-face {
+    font-family: "Mystery Quest";
+    src: url(../Fuentes/mystery-quest.woff);
+}
+p {
+    font-family: "Mystery Quest";
+    font-size: 150%;
+}
+
+@font-face {
+    font-family: "metal";
+    src: url(../Fuentes/MetalMania-Regular.ttf);
+}
+
+h1{
+    font-family: "metal";
+    font-size: 200%;
+}
+@font-face {
+    font-family: "minecraft";
+    src: url(../Fuentes/PixelifySans-VariableFont_wght.ttf);
+}
+h2 {
+    font-family: "minecraft";
+    font-size: 300%;
 }

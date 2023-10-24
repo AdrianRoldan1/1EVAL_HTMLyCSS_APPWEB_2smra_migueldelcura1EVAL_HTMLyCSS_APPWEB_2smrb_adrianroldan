@@ -2,7 +2,7 @@
 html{
     background-position: top right;
     background-attachment: scroll;
-    background-image: url(https://live.staticflickr.com/2444/3641884410_2f2fb090fe_b.jpg);
+    background: linear-gradient(to bottom, rgb(140, 0, 255),rgb(0, 255, 255), rgb(62,56,250),rgb(96,255,70));
     background-repeat: no-repeat;
     background-origin: padding-box;
 }
@@ -21,7 +21,7 @@ html{
 /* Selector Descendiente */
 
 div{
-    border: rgb(0, 217, 255) 5px dotted;
+    border: rgb(255, 0, 0) 5px dotted;
     margin: 10px;
     padding: 10px;
     background-position: center center;
@@ -46,7 +46,7 @@ h1 {
 
 }
 #tigre{
-    background: linear-gradient(to bottom, rgb(140, 0, 255),rgb(0, 255, 255), rgb(62,56,250),rgb(96,255,70));
+   
 }
 
 /* Se separa por espacio,no por punto */
