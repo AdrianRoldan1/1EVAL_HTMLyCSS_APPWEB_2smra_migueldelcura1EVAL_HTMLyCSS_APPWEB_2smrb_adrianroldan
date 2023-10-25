@@ -5,34 +5,72 @@
   <title> Ejercicios de clase AW</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+
     @font-face {
     font-family: "Indi";
     src: url(Texto/Fuentes/IndieFlower-Regular.ttf);
     }
+
+    @font-face {
+      font-family: "sangre";
+      src: url(Texto/Fuentes/Nosifer-Regular.ttf);
+    }
+
+    @font-face {
+      font-family: "carta";
+      src: url(Texto/Fuentes/DancingScript-VariableFont_wght.ttf);
+    }
+
+    a {
+      color: rgb(94, 62, 124);
+    }
+
     html{
       background-color: cornflowerblue;
     }
+
     li{
       color: aliceblue;
       font-family: "Indi";
       font-size: 150%;
     }
+
     h1{
       color: aliceblue;
-      font-family: "Indi";
+      font-family: "carta";
       font-size: 250%;
     }
+
+    .ejercicio {
+      font-family: "sangre";
+      font-size: 110%;
+    }
+
+    #lista{
+            padding: 1em;
+             /* Margen entre cajas */
+            margin: 2em;
+            text-align: center;
+        }
+
+     .lista {
+            padding: 1em;
+             /* Margen entre cajas */
+            margin: 2em;
+            text-align: center;
+            list-style-position: inside;
+     }   
   </style>
   </head>
-<body>
+<body  id="lista">
   <h1>Esto es un ejercicio de clase <abbr title="Adrián Roldán Pérez">ARP</abbr></h1>
-  <ul>
+  <ul class="lista">
     <li><a href="Listas/Listas2.html" target="_blank">Listas </a></li>
     <li><a href="Multimedia/video.html" target="_blank">Multimedia</a></li>
     <li><a href="Texto/texto.html" target="_blank">Texto</a></li>
     <li><a href="Formularios/fomulario.html" target="_blank">Formulario</a></li>
-    <li><a href="Ejercicios/Ejercicio1.html"target="_blank">Ejercicio1</a></li>
-    <li><a href="Ejercicios/Ejercicio2.html"target="_blank">Ejercicio2</a></li>
+    <li class="ejercicio"><a href="Ejercicios/Ejercicio1.html"target="_blank">Ejercicio 1</a></li>
+    <li class="ejercicio"><a href="Ejercicios/Ejercicio2.html"target="_blank">Ejercicio 2</a></li>
     <li><a href="Tablas/Horario.html" target="_blank">Tablas</a></li>
     <li><a href="DimensionesyUnidades/DimensionesUnidades.html">Dimensiones y Unidades</a></li>
   </ul>
