@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Indi";
+    src: url(/Texto/Fuentes/IndieFlower-Regular.ttf);
+}
+li {
+    font-family: "Indi";
+    font-size: 100%;
+}
