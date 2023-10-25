@@ -1,0 +1,33 @@
+ul {
+    list-style-image: url(EstilosLista/smile\ peque.png);
+    list-style-position: inside;
+}
+
+.azul {
+    background-color: rgb(81, 178, 243);
+}
+
+.rojo {
+    background-color: red;
+}
+
+.morado {
+    background-color: rgb(255, 0, 255);
+}
+
+.amarillo {
+    background-color: rgb(255, 255, 0);
+}
+
+.verde {
+    background-color: rgb(0, 255, 0);
+}
+ 
+@font-face {
+    font-family: "Indi";
+    src: url(../Texto/Fuentes/IndieFlower-Regular.ttf);
+}
+.lista {
+    font-family: "Indi";
+    font-size: larger;
+}
