@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dimensiones</title>
     <style>
+        @font-face {
+            font-family: "mine";
+            src: url(../Texto/Fuentes/PixelifySans-VariableFont_wght.ttf);
+        }
         #SaludoTriplePorcentual{
             font-size: 300%;
         }
@@ -14,6 +18,30 @@
         #saludoTriple{
             font-size: 3em;
         }
+
+        div:first-letter {
+            text-transform: uppercase;
+            color: purple;
+            font-family: "mine";
+
+        }
+
+        p.l::before {
+            content: "Cuidado ";
+            text-decoration: underline;
+            font-weight: bold;
+            color: brown;
+
+        }
+
+       pre{
+        counter-reset: cuenta-parrafos;
+       }
+
+       p::before {
+        content: counter(cuenta-parrafos, upper-roman)".";
+        counter-increment: cuenta-parrafos;
+       }
         /*
         div{
             border:green 2px dashed
@@ -55,7 +83,7 @@
 </head>
 <body>
     <div>
-        Buenos días normal
+        buenos días normal
 <div id="SaludoTriplePorcentual">
 Buenos dias porcentual
 </div>
@@ -68,8 +96,15 @@ Buenos dias doble
     <div id="saludoTriple">
 Buenos dias triple
     </div>
-    <p>Esto es un párrafo de nivel 1</p>
+    <p class="l">Esto es un párrafo de nivel 1</p>
     <p>Esto es un párrafo de nivel 2</p>
     <div id="noticia"> El diario <cite>ABC</cite> redactó la increible noticia de la siguiente manera: "Un pie se descuelga de las escalerillas del módulo lunar posado en el Mar de la Tranquilidad"</div>
+
+    <pre>Esto es para probar los contadores</pre>
+    <p>Esto es prueba</p>
+    <p>Esto es prueba</p>
+    <p>Esto es prueba</p>
+    <p>Esto es prueba</p>
+    <p>Esto es prueba</p>
 </body>
 </html>

@@ -11,10 +11,22 @@
            
         }
         body{
-            background-color: rgba(255, 12, 12, 0.473);   
+            background-color: rgba(55, 218, 123, 0.486);   
         }
         p.Ácido{
          color: rgb(255, 0, 0);
+        }
+        q:lang(es) {
+            quotes: '"' '"';
+            color: rgb(4, 0, 255);
+        }
+
+        span {
+            color: rgb(255, 0, 242);
+        }
+
+        p::first-line{
+            text-transform: uppercase;
         }
     </style>
     
@@ -45,5 +57,7 @@ Fue mejor.
 <p>El dia de mi cumpleaños es el <time datetime="2002-07-03"> 3 de julio de 2002</time></p>
 <p>Sitúa el cursor del ratón sobre la abreviatura <abbr title="Fernando Alonso Díaz">El Nano</abbr> para ver su significado.</p>
 <p>Un Terabyte son <dfn>1024 Gigabytes</dfn></p>
+<p>Platón dijo <q lang="en">I only know that I know nothing</q></p>
+<p>Platón dijo <q lang="es"><span>Solo sé que no sé nada</span></q></p>
 </body>
 </html>
