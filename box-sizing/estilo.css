@@ -1,0 +1,16 @@
+p.parrafo1 {
+    width: 200px;
+    height: 100px;
+    box-sizing: content-box;
+    border: 25px groove red;
+    padding: 20px;
+    text-shadow: 1px 1px 1px blue;
+    background: linear-gradient(to bottom, rgb(255, 0, 221),rgb(0, 255, 255), #429de7,rgb(0, 17, 255), rgb(119, 0, 255));
+}
+
+p.parrafo2 {
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 25px solid red;
+}
