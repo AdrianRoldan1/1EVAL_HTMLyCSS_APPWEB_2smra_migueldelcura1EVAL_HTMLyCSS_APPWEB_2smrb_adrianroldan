@@ -9,22 +9,23 @@ body{
 
 .container {
     background-color: lightgreen;
-    border-radius: 10px;
-    height: 30%;
+    border-radius: 5px;
+    margin: 100px auto;
+    position: relative;
+    height: 700px;
     width: 80%;
-    margin: 20px auto;
+   
 }
 
 .container nav {
     background-color: rgb(70, 69, 69);
     color: white;
     height: 60px;
-
 }
 
 .container nav div {
     display: inline-block;
-    columns: 4;
+    padding-right: 50px;
     height: 50px;
     text-align: center;
     padding: 25px;
@@ -34,29 +35,39 @@ figure {
     border-radius: 10px;
     background-color: white;
     border: 3px black solid;
-    height: 33%;
+    height: 45%;
     width: 30%;
     padding: 10px;
     text-align: center;
 }
 
 #li1 {
-    position: absolute;
     left: 20%;
-    top: 10%;
-    
-}
-
-#li2 {
     position: absolute;
-    top: 15%;
-    left: 35%;
-}
-
-#li3 {
-    bottom: 10%;
-    right: 10%;
-}
+    top: 25%;
+    z-index: 10;
+  }
+  
+  #li2 {
+    left: 30%;
+    position: absolute;
+    top: 30%;
+    z-index: 6;
+  }
+  
+  #li3 {
+    left: 40%;
+    position: absolute;
+    top: 35%;
+    z-index: 4;
+  }
+  
+  #li4 {
+    left: 50%;
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+  }
 
 ul {
     list-style-type: none;
